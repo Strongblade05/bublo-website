@@ -27,7 +27,7 @@
       grid.innerHTML = images.map((file) => {
         const id = idFromFilename(file.name);
         const title = titleFromFilename(file.name);
-        const image = file.download_url;
+        const image = `/assets/memes/${encodeURIComponent(file.name)}`;
         const safeTitle = escapeHtml(title);
         const safeImage = escapeHtml(image);
         const safeId = escapeHtml(id);
