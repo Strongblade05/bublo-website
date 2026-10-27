@@ -1,0 +1,333 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#071426;color:#f4f7ff;font-family:Inter,Arial,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}.glow{position:absolute;pointer-events:none;border-radius:50%;filter:blur(100px);opacity:.18}.glow-one{width:360px;height:360px;background:#1479ff;top:80px;left:-180px}.glow-two{width:380px;height:380px;background:#e7aa35;top:520px;right:-220px;opacity:.1}.topbar{height:88px;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:2;border-bottom:1px solid #ffffff12}.brand{display:flex;align-items:center;gap:11px;font:14px 'Press Start 2P',monospace;letter-spacing:-1px}.brand-icon{width:38px;height:38px;display:block;object-fit:contain;image-rendering:pixelated;flex:0 0 auto}.topbar nav{display:flex;gap:34px;color:#aab7ca;font-size:13px;font-weight:600}.topbar nav a:hover{color:#fff}.nav-cta{border:1px solid #dba83d;color:#f3c76c;padding:11px 16px;border-radius:5px;font-size:12px;font-weight:800}.hero{min-height:630px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:40px;padding-top:52px;padding-bottom:70px;position:relative}.eyebrow,.section-label{font:10px 'Press Start 2P',monospace;color:#f0bd55;letter-spacing:.5px}.pulse{display:inline-block;width:7px;height:7px;border-radius:50%;background:#4bdc9a;box-shadow:0 0 12px #4bdc9a;margin-right:9px}.hero h1{font:clamp(48px,7vw,82px) 'Press Start 2P',monospace;line-height:1.25;margin:28px 0 14px;letter-spacing:-6px}.hero h1 span,h2 span{color:#5ba8ff}.tagline{font:14px 'Press Start 2P',monospace;color:#f1c66e;letter-spacing:1px}.intro,.section-text{color:#aab7ca;line-height:1.8;font-size:16px;max-width:530px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.button{display:inline-flex;align-items:center;justify-content:center;gap:14px;padding:15px 19px;border-radius:5px;font-size:12px;font-weight:800;transition:.2s}.button:hover{transform:translateY(-3px)}.primary{background:#e9b64d;color:#101a2b;box-shadow:0 5px 0 #98651c}.secondary{border:1px solid #49627f;color:#e8f1ff}.chain-note{margin-top:32px;color:#8496ad;font:9px 'Press Start 2P',monospace}.sol-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:linear-gradient(135deg,#9c68ff,#22d3a5);margin-right:9px}.mascot-panel{height:420px;border:1px solid #23466c;border-radius:12px;background:#050b2c;display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:inset 0 0 70px #1677ed18,0 25px 70px #0005}.mascot-image{display:block;width:100%;height:100%;object-fit:cover;object-position:center}.ticker{overflow:hidden;border-top:1px solid #284563;border-bottom:1px solid #284563;background:#0a1d34;padding:17px 0;color:#e8b64e;font:10px 'Press Start 2P',monospace;white-space:nowrap}.ticker div{min-width:max-content;animation:scroll 32s linear infinite}@keyframes scroll{to{transform:translateX(-35%)}}.section{padding-top:115px;padding-bottom:115px}.section h2,.token-inner h2{font:clamp(28px,4vw,44px) 'Press Start 2P',monospace;line-height:1.55;letter-spacing:-2px;margin:26px 0}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:46px}.feature{border:1px solid #23415f;background:#0a1d33;padding:25px;border-radius:7px}.feature-icon{font-size:24px;color:#eab94f}.feature h3{font:10px 'Press Start 2P',monospace;color:#e8f1ff;margin:22px 0 14px}.feature p{font-size:13px;line-height:1.7;color:#9fb0c5;margin:0}.token-section{background:linear-gradient(110deg,#0b2038,#0a192d);border-top:1px solid #1d3c5b;border-bottom:1px solid #1d3c5b}.token-inner{padding-top:90px;padding-bottom:90px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.token-card{background:#071426;border:1px solid #345779;padding:28px;border-radius:9px;box-shadow:0 20px 60px #0004}.token-row{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid #ffffff15}.token-row span{font:9px 'Press Start 2P',monospace;color:#849bb5}.token-row strong{font-size:14px}.gold{color:#f1c66e}.address-row{border:0;padding-bottom:8px}.copy-button{border:0;background:transparent;color:#67b2ff;font-size:11px;font-weight:700;cursor:pointer}.token-card code{display:block;overflow-wrap:anywhere;background:#0d2139;color:#b6d9ff;padding:13px;border-radius:4px;font-size:11px;line-height:1.6}.copy-status{height:16px;color:#68dfa8;font-size:11px}.full{width:100%;margin-top:8px}.community{text-align:center}.community .section-text{margin:0 auto}.socials{display:flex;gap:18px;justify-content:center;margin-top:40px}.social-card{width:min(320px,100%);display:flex;align-items:center;gap:15px;text-align:left;padding:20px;border:1px solid #294966;background:#0a1d33;border-radius:7px}.social-card>b{font-size:24px;color:#f0bd55;width:28px;text-align:center}.social-card span{display:flex;flex-direction:column;gap:6px;flex:1}.social-card strong{font:9px 'Press Start 2P',monospace}.social-card small{color:#8fa5bd;font-size:11px}.social-card i{font-style:normal;color:#f0bd55}.footer{border-top:1px solid #203b57;background:#06101e;padding:28px 0 24px}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:18px}.footer-inner>span{font:9px 'Press Start 2P',monospace;color:#e8b64e}.footer-inner small{color:#71849c;font-size:10px}.disclaimer{margin-top:24px;color:#667a91;font-size:10px;line-height:1.7}
+@media(max-width:760px){.wrap{width:min(100% - 32px,560px)}.topbar{height:72px}.topbar nav{display:none}.nav-cta{font-size:10px;padding:9px 11px}.hero{grid-template-columns:1fr;padding-top:62px;gap:35px}.hero h1{letter-spacing:-4px}.mascot-panel{height:350px}.section{padding-top:78px;padding-bottom:78px}.feature-grid{grid-template-columns:1fr}.token-inner{grid-template-columns:1fr;gap:28px;padding-top:75px;padding-bottom:75px}.socials{flex-direction:column;align-items:center}.social-card{width:100%}.footer-inner{flex-wrap:wrap}.footer-inner>span{display:none}.footer-inner small{width:100%}}
+/* BUBLO visual polish */
+.about-intro{display:grid;grid-template-columns:1.15fr .85fr;gap:52px;align-items:center}
+.about-intro h2{margin-top:26px}
+.about-mascot-card{position:relative;max-width:360px;justify-self:end;border:1px solid #28517b;border-radius:10px;overflow:hidden;background:radial-gradient(circle at 50% 40%,#123d75 0,#091c39 58%,#071426 100%);box-shadow:0 18px 50px #0005,inset 0 0 45px #1685ff18}
+.about-mascot-card:before,.about-mascot-card:after{content:"";position:absolute;inset:14%;border:1px solid #55aaff24;transform:rotate(45deg);pointer-events:none}
+.about-mascot-card:after{inset:23%;border-color:#f1bd4b24}
+.about-mascot-card img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;position:relative;z-index:1;mix-blend-mode:screen}
+.pixel-caption{display:block;position:relative;z-index:2;text-align:center;padding:0 12px 17px;color:#77baff;font:8px 'Press Start 2P',monospace;letter-spacing:.4px}
+.pixel-spark{position:absolute;z-index:2;color:#f3c45c;text-shadow:0 0 12px #f3c45c88;font-size:20px}
+.spark-a{top:16px;left:18px}.spark-b{right:18px;bottom:42px}
+.feature{transition:transform .2s ease,border-color .2s ease,background .2s ease}
+.feature:hover{transform:translateY(-4px);border-color:#4b91d0;background:#0d2541}
+.social-card{transition:transform .2s ease,border-color .2s ease}
+.social-card:hover{transform:translateY(-3px);border-color:#5ba8ff}
+.button:focus-visible,.social-card:focus-visible,.topbar a:focus-visible,.copy-button:focus-visible{outline:2px solid #f1c66e;outline-offset:4px}
+@media(max-width:760px){
+  .topbar{height:auto;min-height:72px;flex-wrap:wrap;padding-top:15px;padding-bottom:14px;row-gap:13px}
+  .topbar nav{display:flex;order:3;width:100%;justify-content:center;gap:clamp(18px,7vw,34px);padding-top:10px;border-top:1px solid #ffffff12}
+  .topbar nav a{font-size:12px}
+  .hero{min-height:0;padding-top:48px;padding-bottom:52px}
+  .hero-copy{text-align:left}
+  .eyebrow{font-size:8px;line-height:1.8}
+  .hero h1{font-size:clamp(36px,10vw,58px);letter-spacing:-3px;overflow-wrap:anywhere}
+  .intro,.section-text{font-size:14px}
+  .mascot-panel{height:auto;aspect-ratio:1/1;max-height:430px}
+  .about-intro{grid-template-columns:1fr;gap:28px}
+  .about-mascot-card{width:min(100%,360px);justify-self:center}
+  .section h2,.token-inner h2{font-size:clamp(23px,6.5vw,34px);letter-spacing:-1.5px}
+  .feature-grid{gap:12px;margin-top:30px}
+  .token-card{padding:20px}
+  .token-card code{font-size:10px}
+  .footer-inner{align-items:flex-start}
+  .footer-inner small{line-height:1.6}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker div{animation:none}.button,.feature,.social-card{transition:none}}
+
+/* Final mobile and footer refinements */
+.community-logo{display:block;width:min(230px,62vw);height:auto;object-fit:contain;border:0;border-radius:0;filter:drop-shadow(0 8px 22px #1685ff30);margin:20px auto 18px}
+.address-row{gap:14px;flex-wrap:wrap}
+.token-card code{user-select:all;letter-spacing:.15px}
+.copy-button{padding:10px 12px;border:1px solid #2c5278;border-radius:5px;min-height:38px}
+.copy-button:hover{background:#102b49;color:#a8d5ff}
+.footer-links{display:flex;gap:18px;flex-wrap:wrap;color:#91a9c4;font-size:11px;font-weight:700}
+.footer-links a:hover{color:#f1c66e}
+.disclaimer strong{color:#a8bad0}
+@media(max-width:760px){
+  .topbar nav a{font-size:13px;padding:8px 5px;min-height:36px;display:flex;align-items:center}
+  .token-row span{font-size:8px}
+  .address-row{align-items:flex-start;flex-direction:column;gap:5px}
+  .token-card code{font-size:11px;line-height:1.8;padding:14px;overflow-wrap:anywhere;word-break:break-word}
+  .copy-button{font-size:12px;padding:10px 13px}
+  .community-logo{width:min(205px,68vw);margin:18px auto 16px}
+  .footer-inner{gap:15px}
+  .footer-links{width:100%;gap:20px;padding:2px 0 5px}
+  .footer-inner small{width:100%}
+  .disclaimer{font-size:11px;line-height:1.8}
+}
+
+
+/* BUBLO character collection ticker */
+.character-ticker{width:100%;overflow:hidden;border-top:1px solid #284563;border-bottom:1px solid #284563;background:#071426;padding:10px 0;}
+.character-track{display:flex;width:max-content;align-items:center;animation:character-scroll 48s linear infinite;will-change:transform;}
+.character-group{display:flex;flex:0 0 auto;align-items:center;gap:0;}
+.character-track img{display:block;width:auto;height:125px;max-width:none;flex:0 0 auto;}
+/* Two identical, wide groups let the animation restart at an identical frame with no empty gap. */
+@keyframes character-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.character-ticker:hover .character-track{animation-play-state:paused}
+@media(max-width:760px){.character-ticker{padding:8px 0}.character-track img{height:100px}.character-track{animation-duration:38s}}
+@media(prefers-reduced-motion:reduce){.character-track{animation:none}}
+
+/* Mobile viewport alignment fix */
+html, body { width: 100%; min-width: 100%; }
+@media (max-width: 760px) {
+  body { overflow-x: clip; }
+  .wrap {
+    width: calc(100vw - 36px);
+    max-width: 560px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .topbar, .hero, .section, .token-inner, .footer-inner {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-copy, .about-intro > *, .token-inner > * { min-width: 0; }
+  .mascot-panel, .about-mascot-card, .token-card { max-width: 100%; }
+  .character-ticker { width: 100%; margin-left: 0; margin-right: 0; }
+}
+
+
+/* BUBLO Meme Gallery */
+.gallery-main{position:relative;z-index:1;padding-top:86px;padding-bottom:110px;min-height:70vh}
+.gallery-title{font:clamp(28px,5vw,52px) 'Press Start 2P',monospace;line-height:1.5;letter-spacing:-2px;margin:25px 0 14px}
+.gallery-title span{color:#58c9ff}
+.gallery-intro{color:#aab7ca;line-height:1.8;font-size:15px;max-width:650px;margin:0 0 42px}
+.gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.meme-card{min-width:0;overflow:hidden;border:1px solid #28517b;border-radius:9px;background:linear-gradient(145deg,#0c2340,#071426);box-shadow:0 18px 48px #0004}
+.meme-preview{display:block;position:relative;width:100%;padding:0;border:0;background:#050b2c;cursor:zoom-in;overflow:hidden}
+.meme-preview img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;transition:transform .25s ease}
+.meme-preview:hover img{transform:scale(1.025)}
+.preview-hint{position:absolute;right:14px;bottom:14px;padding:9px 11px;border:1px solid #70cfff88;border-radius:4px;background:#071426dd;color:#d8f4ff;font:8px 'Press Start 2P',monospace}
+.meme-info{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px}
+.meme-info h2{font:10px 'Press Start 2P',monospace;line-height:1.8;margin:0 0 8px;color:#f4f7ff}
+.meme-info p{font-size:12px;color:#93a9c2;line-height:1.6;margin:0}
+.download-button{display:inline-flex;justify-content:center;align-items:center;flex:0 0 auto;padding:12px 14px;border:1px solid #e5b64d;border-radius:5px;background:#e5b64d;color:#071426;font-size:10px;font-weight:800;letter-spacing:.3px;white-space:nowrap;cursor:pointer}
+.download-button:hover{background:#ffd36e;border-color:#ffd36e}
+.gallery-note{display:flex;align-items:center;gap:16px;max-width:760px;margin:40px auto 0;padding:18px 22px;border:1px solid #23415f;border-radius:7px;background:#0a1d33}
+.gallery-note img{width:48px;height:48px;object-fit:contain;image-rendering:pixelated}
+.gallery-note p{margin:0;color:#9fb0c5;font-size:12px;line-height:1.8}
+.gallery-back{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:34px}
+.meme-lightbox{display:none;position:fixed;inset:0;z-index:20;background:#020711f2;padding:40px 20px 28px;align-items:center;justify-content:center;flex-direction:column;gap:16px}
+.meme-lightbox.open{display:flex}
+.meme-lightbox>img{display:block;max-width:min(88vw,850px);max-height:78vh;width:auto;height:auto;object-fit:contain;box-shadow:0 20px 70px #0009}
+.lightbox-close{position:absolute;top:18px;right:24px;border:1px solid #54708e;background:#0b2038;color:#fff;border-radius:50%;width:42px;height:42px;font-size:27px;cursor:pointer}
+@media(max-width:760px){
+ .gallery-main{padding-top:60px;padding-bottom:78px}
+ .gallery-title{font-size:clamp(23px,7vw,36px);line-height:1.6;letter-spacing:-1px;overflow-wrap:anywhere}
+ .gallery-intro{font-size:14px;margin-bottom:28px}
+ .gallery-grid{grid-template-columns:1fr;gap:18px}
+ .meme-info{align-items:flex-start;flex-direction:column;padding:17px}
+ .meme-info h2{font-size:9px}
+ .download-button{width:100%;min-height:42px}
+ .gallery-note{align-items:flex-start;margin-top:28px;padding:16px}
+ .gallery-note img{width:40px;height:40px}
+ .gallery-back{flex-direction:column}
+ .gallery-back .button{width:100%}
+ .meme-lightbox{padding:56px 12px 20px}
+ .meme-lightbox>img{max-width:96vw;max-height:75vh}
+ .lightbox-download{width:min(100%,340px)}
+}
+
+
+
+/* Per-meme download totals */
+.meme-info{flex-wrap:wrap}
+.download-count{
+  display:block;
+  flex:0 0 100%;
+  margin-top:-7px;
+  color:#91a9c4;
+  font-size:11px;
+  line-height:1.4;
+  text-align:right;
+}
+.download-count .count-number{
+  color:#18c8f2;
+  font-weight:800;
+  font-variant-numeric:tabular-nums;
+}
+.download-count.is-loading{opacity:.7}
+.download-count.is-error{color:#e5b64d}
+.download-button.is-counting{opacity:.7;pointer-events:none}
+@media (max-width:560px){
+  .download-count{text-align:left}
+}
+
+
+/* BUBLO gallery: compact responsive overview */
+.gallery-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:18px;
+}
+.meme-preview img{
+  aspect-ratio:1/1;
+  width:100%;
+  height:auto;
+  max-height:320px;
+  object-fit:cover;
+}
+.meme-info{
+  gap:10px;
+  padding:16px;
+}
+.meme-info h2{
+  font-size:9px;
+}
+.meme-info p{
+  font-size:11px;
+}
+.meme-info .download-button{
+  padding:10px 12px;
+  font-size:9px;
+}
+.download-count{
+  font-size:10px;
+  margin-top:-5px;
+}
+@media(max-width:900px){
+  .gallery-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+  }
+}
+@media(max-width:560px){
+  .gallery-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:10px;
+  }
+  .meme-info{
+    padding:11px;
+    gap:8px;
+  }
+  .meme-info h2{
+    font-size:7px;
+    line-height:1.7;
+  }
+  .meme-info p{
+    font-size:10px;
+  }
+  .meme-info .download-button{
+    min-height:36px;
+    padding:8px 7px;
+    font-size:8px;
+  }
+  .download-count{
+    font-size:9px;
+    text-align:left;
+  }
+  .preview-hint{
+    right:7px;
+    bottom:7px;
+    padding:7px 8px;
+    font-size:7px;
+  }
+}
+
+
+/* Prominent Meme Gallery button on the homepage */
+.gallery-cta{
+  background:#e9b64d;
+  color:#101a2b;
+  border:1px solid #ffd77d;
+  box-shadow:0 5px 0 #98651c,0 0 18px #e9b64d26;
+  font-weight:800;
+}
+.gallery-cta:hover{
+  background:#f4c967;
+  box-shadow:0 7px 0 #98651c,0 0 24px #e9b64d40;
+}
+.gallery-cta span{
+  font-size:17px;
+  line-height:1;
+}
+@media(max-width:560px){
+  .gallery-cta{
+    flex:1 1 100%;
+  }
+}
+
+
+/* Gallery card alignment: centered download button with count directly below */
+.gallery-grid{
+  align-items:stretch;
+}
+.meme-card{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+.meme-preview{
+  flex:0 0 auto;
+}
+.meme-info{
+  display:flex;
+  flex:1 1 auto;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:center;
+  gap:10px;
+}
+.meme-info > div:first-child{
+  width:100%;
+  min-height:62px;
+}
+.meme-info .download-button{
+  margin-top:auto;
+  align-self:center;
+}
+.meme-info .download-count{
+  display:block;
+  flex:0 0 auto;
+  width:100%;
+  margin:0;
+  text-align:center;
+}
+@media(max-width:560px){
+  .meme-info > div:first-child{
+    min-height:68px;
+  }
+  .meme-info .download-count{
+    text-align:center;
+  }
+}
+
+
+/* Light-blue Join Telegram button on the homepage */
+.hero .button.secondary{
+  background:#55c8ff;
+  color:#07182b;
+  border:1px solid #8cddff;
+  box-shadow:0 5px 0 #1976b5,0 0 18px #55c8ff30;
+  font-weight:800;
+}
+.hero .button.secondary:hover{
+  background:#7bd6ff;
+  border-color:#a9e7ff;
+  box-shadow:0 7px 0 #1976b5,0 0 24px #55c8ff55;
+}
+
+
+/* Homepage hero mascot: smaller and fully visible without cropping */
+.hero .mascot-panel{
+  width:min(100%,300px);
+  height:auto;
+  aspect-ratio:1 / 1;
+  justify-self:center;
+}
+.hero .mascot-image{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+}
+@media(max-width:760px){
+  .hero .mascot-panel{
+    width:min(100%,250px);
+    height:auto;
+    aspect-ratio:1 / 1;
+  }
+}

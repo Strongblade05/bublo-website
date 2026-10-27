@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="Meet BUBLO — a little blue chaos creature bringing memes, fun and good vibes to the internet. JUST A LITTLE CHAOS.">
+  <title>BUBLO — Just a Little Chaos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <header class="topbar wrap">
+    <a class="brand" href="#home" aria-label="BUBLO home"><img class="brand-icon" src="assets/bublo-icon.png" alt=""><span>BUBLO</span></a>
+    <nav>
+      <a href="#about">About</a><a href="#token">Token</a><a href="gallery.html">Meme Gallery</a><a href="#community">Community</a>
+    </nav>
+    <a class="nav-cta" href="https://pump.fun/coin/De9eGikY19zWcWARX9heY2rnKjinQAAPxPx3uiJpump" target="_blank" rel="noreferrer">Pump.fun ↗</a>
+  </header>
+
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> A LITTLE BLUE CHAOS ON SOLANA</div>
+        <h1>MEET <span>BUBLO</span></h1>
+        <p class="tagline">JUST A LITTLE CHAOS.</p>
+        <p class="intro">A community-driven meme coin bringing memes, fun and good vibes to the internet. No big promises. Just a little chaos, one meme at a time.</p>
+        <div class="actions">
+          <a class="button primary" href="https://pump.fun/coin/De9eGikY19zWcWARX9heY2rnKjinQAAPxPx3uiJpump" target="_blank" rel="noreferrer">View on Pump.fun <span>↗</span></a>
+          <a class="button secondary" href="https://t.me/BUBLO_Official" target="_blank" rel="noreferrer">Join Telegram</a>
+          <a class="button gallery-cta" href="gallery.html"><span aria-hidden="true">▦</span> MEME GALLERY</a>
+        </div>
+        <div class="chain-note"><span class="sol-dot"></span> BUILT ON SOLANA</div>
+      </div>
+
+      <div class="mascot-panel" aria-label="Official BUBLO pixel-art mascot">
+        <img class="mascot-image" src="assets/bublo-hero-mascot.png" alt="BUBLO, the blue crowned pixel-art mascot surrounded by B coins">
+      </div>
+    </section>
+
+    <section class="character-ticker" aria-label="BUBLO character collection">
+      <div class="character-track">
+        <div class="character-group">
+          <img src="assets/bublo-character-strip.png" alt="BUBLO in a collection of playful poses" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+        </div>
+        <div class="character-group" aria-hidden="true">
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+          <img src="assets/bublo-character-strip.png" alt="" aria-hidden="true" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section wrap">
+      <div class="section-label">01 / THE IDEA</div>
+      <div class="about-intro">
+        <div>
+          <h2>SMALL CREATURE.<br><span>BIG CHAOS.</span></h2>
+          <p class="section-text">BUBLO is here for the fun side of crypto culture. The idea is simple: bring people together around a recognizable character, creative memes and a community that grows organically.</p>
+        </div>
+        <div class="about-mascot-card">
+          <span class="pixel-spark spark-a">✦</span>
+          <img src="assets/bublo-mascot.png" alt="The BUBLO blue crowned mascot with B coins">
+          <span class="pixel-caption">YOUR LITTLE BLUE CHAOS</span>
+          <span class="pixel-spark spark-b">✦</span>
+        </div>
+      </div>
+      <div class="feature-grid">
+        <article class="feature"><span class="feature-icon">✦</span><h3>MEME CULTURE</h3><p>Made for creativity, humor and internet culture.</p></article>
+        <article class="feature"><span class="feature-icon">◎</span><h3>COMMUNITY FIRST</h3><p>Built step by step with real people and good energy.</p></article>
+        <article class="feature"><span class="feature-icon">⚡</span><h3>SOLANA</h3><p>Part of the fast-moving Solana ecosystem.</p></article>
+      </div>
+    </section>
+
+    <section id="token" class="token-section">
+      <div class="wrap token-inner">
+        <div><div class="section-label">02 / TOKEN INFO</div><h2>THE BUBLO<br><span>DETAILS</span></h2><p class="section-text">The basics, all in one place. Always verify the token address before interacting.</p></div>
+        <div class="token-card">
+          <div class="token-row"><span>NAME</span><strong>BUBLO</strong></div>
+          <div class="token-row"><span>TICKER</span><strong class="gold">$BUBL</strong></div>
+          <div class="token-row"><span>NETWORK</span><strong>Solana</strong></div>
+          <div class="token-row address-row"><span>TOKEN ADDRESS</span><button id="copy-address" class="copy-button">Copy address ⧉</button></div>
+          <code id="token-address">De9eGikY19zWcWARX9heY2rnKjinQAAPxPx3uiJpump</code>
+          <p class="copy-status" id="copy-status" aria-live="polite"></p>
+          <a class="button primary full" href="https://pump.fun/coin/De9eGikY19zWcWARX9heY2rnKjinQAAPxPx3uiJpump" target="_blank" rel="noreferrer">Open Pump.fun ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="community" class="section wrap community">
+      <div class="section-label">03 / COME HANG OUT</div>
+      <img class="community-logo" src="assets/bublo-footer-logo.png" alt="BUBLO crowned pixel-art wordmark" loading="lazy">
+      <h2>CHAOS IS BETTER<br><span>TOGETHER.</span></h2>
+      <p class="section-text">Follow the journey, share a meme or join the conversation. BUBLO is growing one step at a time.</p>
+      <div class="socials">
+        <a class="social-card" href="https://x.com/BUBLO_Coin" target="_blank" rel="noreferrer"><b>𝕏</b><span><strong>FOLLOW ON X</strong><small>@BUBLO_Coin</small></span><i>↗</i></a>
+        <a class="social-card" href="https://t.me/BUBLO_Official" target="_blank" rel="noreferrer"><b>➤</b><span><strong>JOIN TELEGRAM</strong><small>BUBLO Official Community</small></span><i>↗</i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#home"><img class="brand-icon" src="assets/bublo-icon.png" alt=""><span>BUBLO</span></a>
+      <span>JUST A LITTLE CHAOS.</span>
+      <div class="footer-links"><a href="https://pump.fun/coin/De9eGikY19zWcWARX9heY2rnKjinQAAPxPx3uiJpump" target="_blank" rel="noreferrer">Pump.fun ↗</a><a href="https://x.com/BUBLO_Coin" target="_blank" rel="noreferrer">X ↗</a><a href="https://t.me/BUBLO_Official" target="_blank" rel="noreferrer">Telegram ↗</a><a href="gallery.html">Meme Gallery ↗</a></div>
+      <small>© 2026 BUBLO. Made for the community.</small>
+    </div>
+    <div class="disclaimer wrap"><strong>Risk notice:</strong> BUBLO is a meme coin and community project. Crypto assets are volatile and may lose some or all of their value. This website is for informational and entertainment purposes only and is not financial advice or a promise of returns. Always verify the token address and do your own research.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
