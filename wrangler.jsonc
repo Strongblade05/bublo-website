@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bublo-download-counter",
+  "main": "cloudflare-worker/worker.js",
+  "compatibility_date": "2026-10-27",
+  "kv_namespaces": [
+    {
+      "binding": "COUNTS",
+      "id": "4d84bfab4489499fa66eb4dba52a1538"
+    }
+  ]
+}
