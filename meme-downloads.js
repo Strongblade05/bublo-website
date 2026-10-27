@@ -1,6 +1,6 @@
 (() => {
   // After deploying the Worker, paste its URL here (example: https://bublo-counter.YOUR-SUBDOMAIN.workers.dev).
-  const endpoint = "https://bublo-download-counter.dragan-danicic1990.workers.dev";
+  const endpoint = https://bublo-download-counter.dragan-danicic1990.workers.dev;
   const ready = () => {
     const countElements = [...document.querySelectorAll("[data-count-for]")];
     const downloadLinks = [...document.querySelectorAll("a[data-meme-id]")];
