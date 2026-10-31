@@ -600,3 +600,88 @@ html, body { width: 100%; min-width: 100%; }
     position: relative;
   }
 }
+
+/* BUBLO - Final responsive polish for all pages */
+@media (max-width: 760px) {
+  /* Keep every page inside the phone viewport */
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  .wrap {
+    min-width: 0;
+  }
+
+  /* Consistent, visible navigation on phones */
+  .topbar {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .topbar nav {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: stretch;
+  }
+
+  .topbar nav a {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  /* Stack and center the homepage calls to action */
+  .hero .actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .hero .actions > .button {
+    width: min(100%, 320px);
+    min-height: 54px;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .hero .actions > .gallery-cta {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Prevent grid and flex children from forcing page width */
+  .hero,
+  .about-intro,
+  .token-inner,
+  .feature-grid,
+  .transparency-grid,
+  .gallery-grid,
+  .roadmap-list,
+  .footer-inner {
+    min-width: 0;
+  }
+
+  .hero > *,
+  .about-intro > *,
+  .token-inner > *,
+  .feature-grid > *,
+  .transparency-grid > *,
+  .gallery-grid > *,
+  .roadmap-list > * {
+    min-width: 0;
+  }
+
+  .intro,
+  .section-text,
+  .gallery-intro,
+  .roadmap-intro,
+  .phase-summary,
+  .disclaimer {
+    overflow-wrap: anywhere;
+  }
+}
