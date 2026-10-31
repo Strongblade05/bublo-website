@@ -32,3 +32,10 @@ Napomena: Cloudflare Workers Free ima dnevne limite; KV je eventualno konzistent
 - Ne mijenjaj niti briši postojeći Netlify sajt dok GitHub Pages verzija nije testirana.
 - Ne dodaj privatne ključeve, wallet seed phrase ili API tajne u repozitorijum.
 - Repozitorijum je javan; slike i izvorni kod su javno vidljivi.
+
+
+## ROADMAP stranica
+- `roadmap.html` je posebna BUBLO Roadmap stranica.
+- Link **Roadmap** dodat je u glavnu navigaciju početne stranice i Meme Gallery stranice.
+- Statusi faza: The Beginning — Completed; Community Power — In Progress; Meme Expansion — Planned; Grow Together — Long-term Vision.
+- Sadržaj je namjerno formulisan bez fiksnih datuma i garantovanih ishoda.
