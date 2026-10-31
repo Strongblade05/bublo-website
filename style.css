@@ -475,6 +475,36 @@ html, body { width: 100%; min-width: 100%; }
   flex-wrap:wrap;
   margin-top:34px;
 }
+
+.roadmap-artwork{
+  max-width:1100px;
+  margin:0 auto 42px;
+  border:1px solid #24517b;
+  border-radius:14px;
+  overflow:hidden;
+  background:#071426;
+  box-shadow:0 18px 48px #0007,0 0 28px #087dff22;
+}
+.roadmap-artwork a{display:block;line-height:0}
+.roadmap-artwork img{display:block;width:100%;height:auto}
+.phase-motto{
+  margin-top:22px;
+  padding:12px 14px;
+  border:1px solid #2e6d98;
+  border-radius:5px;
+  color:#54ddff;
+  text-align:center;
+  font:9px 'Press Start 2P',monospace;
+  line-height:1.8;
+  letter-spacing:.2px;
+}
+.planned .phase-motto{color:#f05bff;border-color:#873c9b}
+.vision .phase-motto{color:#62caff;border-color:#286ba2}
+.completed .phase-motto{color:#40e7b0;border-color:#258d70}
+.in-progress .phase-motto{color:#ffda45;border-color:#9b7926}
+@media(max-width:760px){
+  .roadmap-artwork{margin-bottom:30px;border-radius:9px}
+}
 @media(max-width:760px){
   .roadmap-main{padding-top:58px;padding-bottom:76px}
   .roadmap-hero{margin-bottom:38px}
