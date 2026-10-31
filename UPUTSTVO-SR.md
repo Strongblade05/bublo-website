@@ -39,3 +39,9 @@ Napomena: Cloudflare Workers Free ima dnevne limite; KV je eventualno konzistent
 - Link **Roadmap** dodat je u glavnu navigaciju početne stranice i Meme Gallery stranice.
 - Statusi faza: The Beginning — Completed; Community Power — In Progress; Meme Expansion — Planned; Grow Together — Long-term Vision.
 - Sadržaj je namjerno formulisan bez fiksnih datuma i garantovanih ishoda.
+
+
+## BUBLO Litepaper
+- `bublo-litepaper.pdf` je Project Overview dokument.
+- Link Litepaper dodat je u navigaciju i podnožje početne stranice, Meme Gallery i Roadmap stranice.
+- PDF je samostalan fajl u korijenu repozitorijuma; zadržati isti naziv i putanju pri objavi.
