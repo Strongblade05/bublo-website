@@ -45,3 +45,10 @@ Napomena: Cloudflare Workers Free ima dnevne limite; KV je eventualno konzistent
 - `bublo-litepaper.pdf` je Project Overview dokument.
 - Link Litepaper dodat je u navigaciju i podnožje početne stranice, Meme Gallery i Roadmap stranice.
 - PDF je samostalan fajl u korijenu repozitorijuma; zadržati isti naziv i putanju pri objavi.
+
+
+## BUBLO WORLD GAME — Coming Soon stranica
+- Početna stranica sada ima dugme **BUBLO WORLD GAME** koje vodi na `bublo-world.html`.
+- Nova stranica trenutno prikazuje najavu **COMING SOON** i kratak opis planirane igre.
+- U sekciji Official Resources uklonjen je suvišni link Website; Telegram, X i Pump.fun ostaju.
+- Stranica koristi postojeći `style.css` i postojeću BUBLO ilustraciju iz `assets/`.
