@@ -708,8 +708,8 @@ html, body { width: 100%; min-width: 100%; }
 .world-title { font: clamp(27px, 6vw, 54px) 'Press Start 2P', monospace; line-height: 1.5; letter-spacing: -2px; margin: 26px 0 8px; }
 .world-title span { color: #55c8ff; }
 .world-game-label { color: #f1c66e; font: clamp(11px, 2vw, 16px) 'Press Start 2P', monospace; letter-spacing: 3px; }
-.world-art { width: min(100%, 420px); margin: 38px auto 25px; overflow: hidden; border: 0; border-radius: 10px; background: transparent; box-shadow: 0 18px 48px #0006, 0 0 24px #1685ff16; }
-.world-art img { display: block; width: 100%; height: auto; max-height: none; object-fit: contain; image-rendering: pixelated; border-radius: 10px; }
+.world-art { max-width: 720px; margin: 38px auto 25px; overflow: hidden; border: 1px solid #2a6592; border-radius: 12px; background: radial-gradient(ellipse at 50% 65%, #123e68, #071426 72%); box-shadow: 0 20px 60px #0007, 0 0 32px #1685ff20; }
+.world-art img { display: block; width: 100%; height: auto; max-height: 410px; object-fit: contain; image-rendering: pixelated; }
 .world-coming { display: inline-block; margin: 8px 0 20px; padding: 13px 19px; border: 1px solid #e9b64d; border-radius: 5px; background: #e9b64d12; color: #f6c965; font: 11px 'Press Start 2P', monospace; letter-spacing: 1px; }
 .world-description { max-width: 680px; margin: 0 auto; color: #aab7ca; font-size: 15px; line-height: 1.9; }
 .world-info { max-width: 760px; margin: 45px auto 0; padding: 27px 29px; text-align: left; border: 1px solid #294966; border-radius: 9px; background: linear-gradient(135deg, #0c223b, #09182b); box-shadow: 0 15px 38px #0003; }
@@ -719,8 +719,7 @@ html, body { width: 100%; min-width: 100%; }
 .world-actions { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; margin-top: 28px; }
 @media (max-width: 760px) {
   .world-main { padding: 54px 0 75px; }
-  .world-art { width: min(100%, 420px); margin: 28px auto 21px; border-radius: 10px; }
-  .world-art img { max-height: none; border-radius: 10px; }
+  .world-art { margin: 28px auto 21px; border-radius: 8px; }
   .world-info { margin-top: 30px; padding: 21px 18px; }
   .world-description { font-size: 14px; }
   .world-actions { flex-direction: column; align-items: center; }
