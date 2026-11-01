@@ -726,3 +726,38 @@ html, body { width: 100%; min-width: 100%; }
   .world-actions .button { width: min(100%, 320px); }
   .hero .actions .bublo-world-cta { width: min(100%, 320px); }
 }
+
+
+/* BUBLO fixes: true portrait game artwork and centered homepage gallery CTA */
+.world-art {
+  width: min(100%, 420px);
+  max-width: 420px;
+  margin: 38px auto 25px;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.world-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  border: 1px solid #2a6592;
+  border-radius: 9px;
+  image-rendering: pixelated;
+}
+.hero .actions > .gallery-cta {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 760px) {
+  .hero .actions > .gallery-cta {
+    width: min(100%, 320px);
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
